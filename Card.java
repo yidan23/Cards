@@ -6,6 +6,6 @@ public class Card{
 		this.ranks = ranks;
 	}
 	public String toString(){
-		return (suit + " of " + ranks);
+		return (ranks + " of " + suit);
 	}
 }
